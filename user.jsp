@@ -210,7 +210,7 @@ color:#FFC312;
         <a class="nav-link" href="http://localhost:8080/FlightReservation/Aboutus.jsp"><i class="fas fa-user"></i>My Account</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost:8080/FlightReservation/Aboutus.jsp"><i class="fas fa-sign-out-alt"></i>Logout</a>
+        <a class="nav-link" href="http://localhost:8080/FlightReservation/login.jsp" id="logout" onClick="return confirmed()"><i class="fas fa-sign-out-alt"></i>Logout</a>
       </li>
     
     </ul>
@@ -315,5 +315,15 @@ $(document).on("scroll", function(){
 		$("#banner").removeClass("shrink");
 	}
 });
+</script>
+
+<script>
+function confirmed()
+{
+	if(confirm('Are you sure want to logout?')) {
+        return true;
+    }
+    return false;
+	}
 </script>
 </html>
