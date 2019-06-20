@@ -294,7 +294,7 @@ color:#FFC312;
 		<div class="column2">
 			<div class="card text-white">
 				<div class="card-header">
-					<h3>Route Details</h3>	
+					<h3>Flights</h3>	
 				</div>
 				<div class="card-body">
 					<form action="">
@@ -312,17 +312,17 @@ color:#FFC312;
 						    <tbody>
 						      <tr>
 						        <td>maba1234</td>
-						        <td>madras</td>
-						        <td>bangalore</td>
-						        <td>300</td>
+						        <td>maba2345</td>
+						        <td>10:00</td>
+						        <td>12:00</td>
 						        <td>2500</td>
 						        <td><a class="btn btn-primary btn-sm" style="background:#007bff;" href="http://localhost:8037/My_website/route_edit.jsp">Book</a>
 						      </tr>
 						      <tr>
-						        <td>maba1234</td>
-						        <td>madras</td>
-						        <td>bangalore</td>
-						        <td>300</td>
+						        <td>maba1214</td>
+						        <td>maba1325</td>
+						        <td>10:00</td>
+						        <td>12:00</td>
 						        <td>2500</td>
 						        <td><a class="btn btn-primary btn-sm" style="background:#007bff; href="http://localhost:8037/My_website/route_edit.jsp">Book</a>
 						      </tr>
