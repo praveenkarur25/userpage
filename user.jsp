@@ -39,7 +39,6 @@
 	font-weight:700;
 	letter-spacing:0.1em;
 }
-
 .navbar-nav .nav-item .nav-link{
 	padding: 1.1em 1em!important;
 	font-size: 120%;
@@ -64,14 +63,12 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     padding-bottom: 0;
     background-color: #212529;
 }
-
 .text-intro{
 	width:90%;
 	margin:auto;
 	text-align:center;
 	padding-top:610px;
 }
-
 html,body{
 background-image: url('https://static.toiimg.com/thumb/65576160/Airplane.jpg?width=748&height=499');
 background-size: cover;
@@ -79,12 +76,9 @@ background-repeat: no-repeat;
 height: 100%;
 font-family: 'Numans', sans-serif;
 }
-
 .container{
 height:20%;
-
 }
-
 .card{
 height: 470px;
 margin-top: 100 px;
@@ -93,54 +87,40 @@ margin-left:50px;
 width: 400px;
 background-color: rgba(0,0,0,0.5) !important;
 }
-
 .card-title h1{
 color: white;
 text-align: center;
 padding:20px 10px 0px 30px;
 }
-
 .card-header h3{
 color: white;
 text-align: center;
 }
-
-
-
 input:focus{
 outline: 0 0 0 0  !important;
 box-shadow: 0 0 0 0 !important;
-
 }
-
 .login_btn{
 color: black;
 background-color: #FFC312;
 width: 100px;
 }
-
 .login_btn:hover{
 color: black;
 background-color: white;
 }
-
 .links{
 color: white;
 }
-
 .links a{
 margin-left: 6px;
 color:#FFC312;
 }
-
-
-
 .btn {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-
 .btn {
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -176,14 +156,12 @@ color:#FFC312;
   background: #FFC312 !important;
   color: #fff !important;
 }
-
 .tab-content .btn {
   letter-spacing: 0;
   text-transform: none;
   font-weight: bold;
   font-size: 18px;
 }
-
 </style>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="banner">
