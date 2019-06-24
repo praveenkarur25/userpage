@@ -217,7 +217,7 @@ color:#FFC312;
 				        <th>From</th>
 				        <th>To</th>
 				        <th>Date Of Journey</th>
-				        <th>No Of Passengers</th>
+				        <th>Fare</th>
 				      	<th></th>
 				      </tr>
 				    </thead>
@@ -228,7 +228,7 @@ color:#FFC312;
 				        <td>Madras</td>
 				        <td>Bangalore</td>
 				        <td>27/08/2019</td>
-				        <td>A-4, C-2</td>
+				        <td>&#8377 2100</td>
 				        <td><a class="btn btn-danger btn-sm" href="http://localhost:8037/My_website/route_edit.jsp">Cancel</a></td>
 				      </tr>
 				      <tr>
@@ -237,7 +237,7 @@ color:#FFC312;
 				        <td>Kolkata</td>
 				        <td>Bangalore</td>
 				        <td>30/08/2019</td>
-				        <td>A-4, C-2</td>
+				        <td>&#8377 2900</td>
 				        <td><a class="btn btn-danger btn-sm" href="http://localhost:8037/My_website/route_edit.jsp">Cancel</a></td>
 				      </tr>
 				      
