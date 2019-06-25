@@ -1,0 +1,38 @@
+<script type="text/javascript">
+		var count=0;
+		var prev_numall = 0;
+		var numberAll=0;
+		const chex = document.querySelectorAll('input[type="checkbox"]:not([disabled])');
+		const total = document.querySelector('.total-score .number')
+		document.querySelector('.wrapper').addEventListener('change', function(event) {
+		numberAll = this.querySelectorAll('input[type="checkbox"]:checked').length
+		if(prev_numall != numberAll){
+			count=0;
+			prev_numall = numberAll;
+		}
+		total.innerHTML = numberAll
+		if(numberAll >= 4){
+			for(var i=0;i<chex.length;i++)
+				{
+				if(!chex[i].checked)
+					{
+					chex[i].disabled= true;
+					}
+				
+				}
+			
+		}else{
+			for(var i=0;i<chex.length;i++)
+			{
+			if(!chex[i].checked)
+				{
+				chex[i].disabled= false;
+				}
+			
+			}
+		}
+		
+		const list = event.target.closest('.list')
+		const numberList = list.querySelectorAll('input[type="checkbox"]:checked').length
+		list.querySelector('.list-score.number').innerHTML = numberList})
+</script>
